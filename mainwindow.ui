@@ -776,19 +776,11 @@ color: rgb(107, 212, 72);</string>
      </item>
     </layout>
    </widget>
-   <zorder>buttonCut</zorder>
-   <zorder>buttonFade</zorder>
    <zorder>framePreview</zorder>
    <zorder>frameOutput</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
-   <zorder>StreamQuality</zorder>
-   <zorder>label_4</zorder>
-   <zorder>FPS</zorder>
-   <zorder>label_5</zorder>
-   <zorder>label_6</zorder>
    <zorder>BoxInputs</zorder>
-   <zorder>scrollArea_2</zorder>
    <zorder>uploadSpeedFrame</zorder>
    <zorder>boxKBPS</zorder>
    <zorder>boxFps</zorder>
@@ -991,7 +983,6 @@ color: rgb(107, 212, 72);</string>
   <tabstop>framePreview</tabstop>
   <tabstop>frameOutput</tabstop>
   <tabstop>buttonCut</tabstop>
-  <tabstop>scrollArea</tabstop>
   <tabstop>scrollArea_2</tabstop>
  </tabstops>
  <resources/>
@@ -1057,6 +1048,22 @@ color: rgb(107, 212, 72);</string>
     <hint type="destinationlabel">
      <x>180</x>
      <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>masterVolumeSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>StreamQuality</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>96</x>
+     <y>445</y>
     </hint>
    </hints>
   </connection>
