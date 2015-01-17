@@ -17,8 +17,6 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h
 
-FORMS    += mainwindow.ui \
-    about.ui
+FORMS += \
+    mainwindow.ui
 
-unix: CONFIG += link_pkgconfig
-unix: PKGCONFIG += QtDeclarative
