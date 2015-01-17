@@ -24,7 +24,7 @@
 //#include <QGst/Utils/ApplicationSource>
 
 #include <QtGStreamer/QGlib/Error>
-#include <QtGStreamer/QGlib/Connect>
+//#include <QtGStreamer/QGlib/Connect>
 #include <QtGStreamer/QGst/Init>
 #include <QtGStreamer/QGst/Bus>
 #include <QtGStreamer/QGst/Pipeline>
