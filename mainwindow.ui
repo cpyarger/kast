@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>729</width>
-    <height>509</height>
+    <height>503</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -971,11 +971,6 @@ color: rgb(107, 212, 72);</string>
     <string>About</string>
    </property>
   </action>
-  <action name="actionOpenAbout">
-   <property name="text">
-    <string>openAbout</string>
-   </property>
-  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
@@ -1067,5 +1062,24 @@ color: rgb(107, 212, 72);</string>
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>actionAbout</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisplayAbout()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
+ <slots>
+  <slot>DisplayAbout()</slot>
+ </slots>
 </ui>

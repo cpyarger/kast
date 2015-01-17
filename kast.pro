@@ -19,3 +19,6 @@ HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui \
     about.ui
+
+unix: CONFIG += link_pkgconfig
+unix: PKGCONFIG += QtDeclarative
