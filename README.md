@@ -31,3 +31,6 @@ KCast is a Free Open Source [WireCast](http://www.telestream.net/wirecast/featur
 * Audio
   * Microphones: USB, XLR, Unbalanced
   * Audio mixers
+
+# Preliminary Gstreamer Pipeline
+![Preliminary Gstreamer Pipeline](https://raw.githubusercontent.com/cpyarger/kast/master/Preliminary%20Gstreamer%20Pipeline.png)
