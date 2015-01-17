@@ -34,3 +34,5 @@ KCast is a Free Open Source [WireCast](http://www.telestream.net/wirecast/featur
 
 # Preliminary Gstreamer Pipeline
 ![Preliminary Gstreamer Pipeline](https://raw.githubusercontent.com/cpyarger/kast/master/Preliminary%20Gstreamer%20Pipeline.png)
+
+Uses: [GStreamer Dia Shapes](https://github.com/cpyarger/Gstreamer-Dia-Shapes)
