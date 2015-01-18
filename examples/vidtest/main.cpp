@@ -7,15 +7,15 @@
 
 
 #include <cstdio>
-#include <gst/gst.h>
+//#include <gst/gst.h>
 //#include <QtGStreamer/QGlib/Error>
 //#include <QtGStreamer/QGlib/Connect>
-//#include <QtGStreamer/QGst/Init>
+#include <QtGStreamer/QGst/Init>
 //#include <QtGStreamer/QGst/Bus>
 //#include <QtGStreamer/QGst/Pipeline>
 //#include <QtGStreamer/QGst/Parse>
 //#include <QtGStreamer/QGst/Message>
-//#include <QtGStreamer/QGst/Utils/ApplicationSink>
+#include <QtGStreamer/QGst/Utils/ApplicationSink>
 //#include <QtGStreamer/QGst/Utils/ApplicationSource>
 
 static GMainLoop *loop;
